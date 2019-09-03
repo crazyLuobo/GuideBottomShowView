@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GuideBottomShowView.h"
 
 FOUNDATION_EXPORT double GuideBottomShowViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char GuideBottomShowViewVersionString[];

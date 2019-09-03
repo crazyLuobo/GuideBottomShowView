@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of GuideBottomShowView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yanwenbo_78201@163.com/GuideBottomShowView",
+  "homepage": "https://github.com/crazyLuobo/GuideBottomShowView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yanwenbo_78201@163.com": "yanwenbo_78201@163.com"
   },
   "source": {
-    "git": "https://github.com/yanwenbo_78201@163.com/GuideBottomShowView.git",
+    "git": "https://github.com/crazyLuobo/GuideBottomShowView.git",
     "tag": "0.1.0"
   },
   "platforms": {
