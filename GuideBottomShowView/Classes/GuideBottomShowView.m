@@ -70,9 +70,9 @@
 - (void)layoutGuideBottomShowView
 {
     [self addSubview:self.lineBackView];
-    [self.lineBackView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.bottom.equalTo(self);
-    }];
+//    [self.lineBackView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.top.bottom.equalTo(self);
+//    }];
 }
 #pragma mark - getter and setter
 
@@ -87,10 +87,10 @@
         [showLineViewArr addObject:lineView];
         [self.lineBackView addSubview:lineView];
     }
-    [showLineViewArr mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
-    [showLineViewArr mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.bottom.equalTo(self.lineBackView);
-    }];
+//    [showLineViewArr mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
+//    [showLineViewArr mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.bottom.equalTo(self.lineBackView);
+//    }];
     
 }
 - (UIView *)lineBackView
