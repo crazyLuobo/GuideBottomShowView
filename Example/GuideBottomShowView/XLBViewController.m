@@ -7,7 +7,7 @@
 //
 
 #import "XLBViewController.h"
-
+#import <GuideBottomShowView/GuideBottomShowView.h>
 @interface XLBViewController ()
 
 @end
