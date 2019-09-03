@@ -1,0 +1,6 @@
+framework module GuideBottomShowView {
+  umbrella header "GuideBottomShowView-umbrella.h"
+
+  export *
+  module * { export * }
+}
